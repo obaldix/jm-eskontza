@@ -11,19 +11,21 @@ import { StaticImage } from "gatsby-plugin-image"
 import React, { useMemo } from "react"
 
 import CuentaAtras from "../CuentaAtras/CuentaAtras"
+import Form from "../Form/Form"
+import Hotels from "../Hotels/Hotels"
 import Intro from "../Intro/Intro"
 import Place from "../Place/Place"
 import When from "../When/When"
 
-import "./General.css"
-
 const GeneralPage = () => {
   return (
-    <Container maxWidth={"80vh"}>
+    <>
       <Intro />
-      <Place />
       <When />
-    </Container>
+      <Place />
+      <Hotels />
+      <Form />
+    </>
   )
 }
 

@@ -7,12 +7,6 @@ import CuentaAtras from "../CuentaAtras/CuentaAtras"
 const When = () => {
   return (
     <Box mt="20" minHeight={"300px"}>
-      <Center>
-        <HeadingStyled fontSize={"60px"}>Noiz? / Cuando?</HeadingStyled>
-      </Center>
-      <Center mt={10}>
-        <HeadingStyled>27/05/2023</HeadingStyled>
-      </Center>
       <Center mt={10}>
         <CuentaAtras />
       </Center>
