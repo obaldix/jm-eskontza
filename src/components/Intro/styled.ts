@@ -26,13 +26,32 @@ export const IntroBox = styled(Box)`
   background-color: rgba(0, 0, 0, 0.4);
 `
 
+export const IntroBoxMobile = styled(Box)`
+
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  margin: auto;
+
+`
+
 export const IntroText = styled(Text)`
   font-size: 60px;
   color: white;
 `
+
+export const IntroTextMobile = styled(Text)`
+  font-size: 50px;
+  color: black;
+`
 export const IntroText2 = styled(Text)`
   font-size: 30px;
   color: white;
+`
+
+export const IntroText2Mobile = styled(Text)`
+  font-size: 30px;
+  color: black;
 `
 /*******SLIDE */
 

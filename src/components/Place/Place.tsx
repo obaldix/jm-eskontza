@@ -16,12 +16,12 @@ import {
 import { ImageSlide } from "react-chakra-slide-show"
 import { HeadingStyled } from "../General/styled"
 import { StaticImage } from "gatsby-plugin-image"
-
+import { isMobile } from "react-device-detect"
 const Place = () => {
   return (
     <Box mt="20" minHeight={"300px"}>
       <Center>
-        <HeadingStyled>Informacion</HeadingStyled>
+        <Heading as="h2">Informacion</Heading>
       </Center>
       <Center my={10}>
         <Text>La celebración comenzará a las 13:00 en el Garena Jatetxea.</Text>
@@ -48,10 +48,10 @@ const Place = () => {
 
       <Box mt={"80px"}>
         <Center>
-          <HeadingStyled>Autobuses</HeadingStyled>
+          <Heading as="h2">Autobuses</Heading>
         </Center>
         <Center>
-          <Flex>
+          <Flex flexDir={isMobile ? "column" : "row"}>
             <Box>
               <Card>
                 <CardHeader>

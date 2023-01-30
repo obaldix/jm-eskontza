@@ -3,9 +3,12 @@ import {
   CenterText,
   FadeStyled,
   IntroBox,
+  IntroBoxMobile,
   IntroStyled,
   IntroText,
   IntroText2,
+  IntroText2Mobile,
+  IntroTextMobile,
   LayerOverPhoto,
   SlideDiv,
   SlideEach,
@@ -36,15 +39,15 @@ const Intro = () => {
   return (
     <>
       <MobileView>
-        <IntroBox>
+        <IntroBoxMobile top={"50px"}>
           <CenterText>
-            <IntroText>Julen eta Maitane</IntroText>
+            <IntroTextMobile>Julen eta Maitane</IntroTextMobile>
           </CenterText>
           <CenterText>
-            <IntroText2>Nos casamos! - 27/05/2023 </IntroText2>
+            <IntroText2Mobile>Nos casamos! - 27/05/2023 </IntroText2Mobile>
           </CenterText>
-        </IntroBox>
-        <Box position={"relative"} left="26%" top={"100px"}>
+        </IntroBoxMobile>
+        <Box position={"relative"} top={"100px"}>
           <FadeStyled autoplay={false}>
             {images.map(pic => (
               <SlideEach className="each-slide-effect">
