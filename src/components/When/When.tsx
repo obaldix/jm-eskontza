@@ -7,7 +7,7 @@ import CuentaAtras from "../CuentaAtras/CuentaAtras"
 const When = () => {
   return (
     <Box mt="20" minHeight={"300px"}>
-      <Center mt={10}>
+      <Center mt={40}>
         <CuentaAtras />
       </Center>
     </Box>
