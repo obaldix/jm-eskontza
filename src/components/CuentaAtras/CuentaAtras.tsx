@@ -1,4 +1,4 @@
-import { Box, Text } from "@chakra-ui/react"
+import { Box, Center, Text } from "@chakra-ui/react"
 import React from "react"
 import Countdown from "react-countdown"
 import { BrowserView, MobileView } from "react-device-detect"
@@ -23,10 +23,10 @@ const CuentaAtras: React.FC = () => {
           date={new Date("2023-05-27")}
           renderer={props => (
             <>
-              <Text fontSize={"30px"}>{props.days} días</Text>
-              <Text fontSize={"30px"}>{props.hours} horas</Text>
-              <Text fontSize={"30px"}>{props.minutes} mminutos </Text>
-              <Text fontSize={"30px"}>{props.seconds} segundos</Text>
+              <Center><Text fontSize={"30px"} mr="10px">{props.days} </Text><Text fontSize={"20px"}> días</Text></Center>
+              <Center><Text fontSize={"30px"} mr="10px">{props.hours}</Text><Text fontSize={"20px"}> horas</Text></Center>
+              <Center><Text fontSize={"30px"} mr="10px">{props.minutes}</Text><Text fontSize={"20px"}> minutos </Text></Center>
+              <Center><Text fontSize={"30px"} mr="10px">{props.seconds}</Text><Text fontSize={"20px"}> segundos</Text></Center>
             </>
           )}
         />
