@@ -8,7 +8,7 @@ const Hotels = () => {
       <Center>
         <Heading as="h2">Hoteles</Heading>
       </Center>
-      <Text>Hotel Balneario Areatza – Ilunion Bilbao – Ilunion San Mamés</Text>
+      <Text mt="30px">Hotel Balneario Areatza – Ilunion Bilbao – Ilunion San Mamés</Text>
     </Box>
   )
 }

@@ -50,12 +50,12 @@ const Place = () => {
         <Center>
           <Heading as="h2">Autobuses</Heading>
         </Center>
-        <Center>
+        <Center mt="30px">
           <Flex flexDir={isMobile ? "column" : "row"}>
             <Box>
               <Card>
                 <CardHeader>
-                  <Heading size="md">12:00 Bidezabal</Heading>
+                  <Heading size="xs">12:00 Bidezabal</Heading>
                 </CardHeader>
                 <CardBody>
                   <iframe
@@ -67,7 +67,7 @@ const Place = () => {
                 </CardBody>
                 <CardFooter>
                   <Link href="https://www.google.com/maps/place/Bidezabal+(Metro)+(94),+48993+Getxo,+Vizcaya/@43.35684,-3.012096,16z/data=!4m6!3m5!1s0xd4e5be4a5780def:0xb9de087bd17c31d5!8m2!3d43.3568402!4d-3.0120962!16s%2Fg%2F1tfpq_pv?hl=es&gl=ESS">
-                    <Button> Ver en maps</Button>
+                    <Button colorScheme='blue'> Ver en maps</Button>
                   </Link>
                 </CardFooter>
               </Card>
@@ -75,7 +75,7 @@ const Place = () => {
             <Box>
               <Card>
                 <CardHeader>
-                  <Heading size="md">12:00 Moyua</Heading>
+                  <Heading size="xs">12:00 Moyua</Heading>
                 </CardHeader>
                 <CardBody>
                   <iframe
@@ -86,7 +86,7 @@ const Place = () => {
                 </CardBody>
                 <CardFooter>
                   <Link href="https://www.google.com/maps?ll=43.262648,-2.935427&z=20&t=m&hl=es&gl=ES&mapclient=embed&cid=4724790908941117172">
-                    <Button> Ver en maps</Button>
+                    <Button colorScheme='blue'> Ver en maps</Button>
                   </Link>
                 </CardFooter>
               </Card>

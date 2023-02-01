@@ -15,6 +15,7 @@ import Form from "../Form/Form"
 import Hotels from "../Hotels/Hotels"
 import Intro from "../Intro/Intro"
 import Place from "../Place/Place"
+import Regalo from "../Regalo/Regalo"
 import When from "../When/When"
 
 const GeneralPage = () => {
@@ -25,6 +26,7 @@ const GeneralPage = () => {
       <Place />
       <Hotels />
       <Form />
+      <Regalo/>
     </>
   )
 }
