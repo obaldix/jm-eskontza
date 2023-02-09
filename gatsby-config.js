@@ -59,5 +59,6 @@ module.exports = {
         isBaseProvider: false,
       },
     },
+    `gatsby-plugin-sass`
   ],
 }
