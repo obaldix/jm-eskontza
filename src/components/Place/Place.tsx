@@ -52,8 +52,8 @@ const Place = () => {
         <Center>
           <Heading as="h2"fontSize={55}>Autobuses</Heading>
         </Center>
-        <Center mt="30px">
-          <Flex flexDir={isMobile ? "column" : "row"}>
+        <Center mt="150px">
+          <Flex flexDir={isMobile ? "column" : "row"} gap="30px">
             <Box>
               <Card w={"300px"}>
                 <CardHeader>
@@ -75,7 +75,7 @@ const Place = () => {
                 </CardFooter>
               </Card>
             </Box>
-            <Box ml="30px">
+            <Box>
               <Card w={"300px"}>
                 <CardHeader>
                   <Heading size="xs"> Moyua</Heading>
