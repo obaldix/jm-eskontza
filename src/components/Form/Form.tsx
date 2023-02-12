@@ -4,16 +4,16 @@ import { HeadingStyled } from "../General/styled"
 import { Link } from "gatsby"
 const Form = () => {
   return (
-    <Box>
-      <Center>
-        <Heading as="h2">Etorriko zara? / Vienes?</Heading>
+    <Box mt="200px">
+      <Center >
+        <Heading as="h2" fontSize={55}>Etorriko zara? / Vienes?</Heading>
       </Center>
-      <Center mt="30px">
+      <Center mt="150px" textDecoration={"none"}>
         <a
           href="https://docs.google.com/forms/d/1z91gGgV1rws5xt062haK7YZbnbE1T3uCz3xZ5oMfLsE"
           target="_blank"
         >
-          <Button> Apúntate aquí! </Button>
+          <Button colorScheme={"blue"} size="lg"> Apúntate aquí! </Button>
         </a>
       </Center>
     </Box>

@@ -28,7 +28,7 @@ const GeneralPage = () => {
       <Intro />
       <When />
       <Place />
-      <Hotels />
+      {/* <Hotels /> */}
       <Form />
       <Regalo />
     </Box>
