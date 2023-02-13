@@ -115,7 +115,7 @@ $primary-color: #8cb4a3;
 
 .cube-wrapper {
   position: fixed;
-  left: 50%;
+  left: 45%;
   top: 50%;
   margin-top: -$size;
   margin-left: -$size;
@@ -133,7 +133,7 @@ $primary-color: #8cb4a3;
     width: $size * 1.8;
     height: 6px;
     z-index: 1;
-    background-color: rgba(#8cb4a3, 0.1);
+   // background-color: rgba(#8cb4a3, 0.1);
     -webkit-filter: blur(2px);
     filter: blur(2px);
     @include border-radius(100%);
@@ -170,17 +170,18 @@ body {
   min-height: 100%;
 }
 body {
-  background: white; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to left,
-    #fff,
-    #8cb4a3
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to left,
-    #fff,
-    #8cb4a3
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  // background: white; /* fallback for old browsers */
+  // background: -webkit-linear-gradient(
+  //   to left,
+  //   #fff,
+  //   #8cb4a3
+  // ); /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(
+  //   to left,
+  //   #fff,
+  //   #8cb4a3
+  // ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image:"./images/fondo_web.jpg";
   font-family: arial;
 }
 h1 {
@@ -192,29 +193,4 @@ h1 {
   font-weight: 300;
   font-family: "Archivo Narrow", sans-serif;
 }
-//follow me template
-.made-with-love {
-  position: fixed;
-  left: 0;
-  width: 100%;
-  bottom: 10px;
-  text-align: center;
-  font-size: 10px;
-  z-index: 9999;
-  font-family: arial;
-  color: #fff;
-  i {
-    font-style: normal;
-    color: #f50057;
-    font-size: 14px;
-    position: relative;
-    top: 2px;
-  }
-  a {
-    color: #fff;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
+

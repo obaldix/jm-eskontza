@@ -10,5 +10,21 @@ export const onRenderBody = ({ setHeadComponents }) => {
       crossOrigin="anonymous"
       key="interFont"
     />,
+    <link
+      rel="preload"
+      href="/fonts/gistesy.ttf"
+      as="font"
+      type="font/ttf"
+      crossOrigin="anonymous"
+      key="gistesy"
+    />,
+    <link
+      rel="preload"
+      href="/fonts/migra.otf"
+      as="font"
+      type="font/otf"
+      crossOrigin="anonymous"
+      key="migra"
+    />,
   ])
 }
