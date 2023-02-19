@@ -2,6 +2,7 @@ import { Box } from "@chakra-ui/react"
 import React, { useEffect, useState } from "react"
 import { BrowserView, MobileView } from "react-device-detect"
 import Form from "../Form/Form"
+import Hotels from "../Hotels/Hotels"
 import Intro from "../Intro/Intro"
 import LoaderPage from "../Loader/Loader"
 import Place from "../Place/Place"
@@ -21,6 +22,7 @@ const GeneralPage = () => {
           height={"100vh"}
           width={"100%"}
           backgroundImage="./images/fondo_web_flores.jpg"
+          backgroundSize={"cover"}
         >
           <LoaderPage />
         </Box>
@@ -62,7 +64,7 @@ const GeneralPage = () => {
       <Intro />
       <When />
       <Place />
-      {/* <Hotels /> */}
+      <Hotels />
       <Form />
       <Regalo />
     </Box>

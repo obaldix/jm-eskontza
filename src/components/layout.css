@@ -8,7 +8,7 @@
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
-  --font-lg: 18px;
+  --font-lg: 22px;
   --font-md: 16px;
   --font-sm: 14px;
   --font-sx: 12px;
@@ -29,7 +29,7 @@ html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   font: "migra";
-  font-size: var(--font-md);
+  font-size: var(--font-lg);
   line-height: var(--line-height-normal);
   overflow-y: scroll;
 }

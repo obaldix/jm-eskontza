@@ -19,58 +19,78 @@ import { StaticImage } from "gatsby-plugin-image"
 import { isMobile } from "react-device-detect"
 const Place = () => {
   return (
-    <Box
-      mt="200px"
-      minHeight={"300px"}
-
-    >
+    <Box mt="200px" minHeight={"300px"}>
       <Center>
-        <Heading as="h2" fontSize={55} textAlign="center" fontFamily={"gistesy"}> 
+        <Heading
+          as="h2"
+          fontSize={55}
+          textAlign="center"
+          fontFamily={"gistesy"}
+        >
           ¿Donde lo celebramos?
         </Heading>
       </Center>
-      <Center my={10} mt="150px">
+      <Center my={10} mt="100px" textAlign="center">
         <Text>La celebración comenzará a las 13:00 en el Garena Jatetxea.</Text>
       </Center>
 
-      <Box mb={5}       backgroundImage={"./images/flor1.png"}
-      backgroundRepeat="no-repeat"
-      backgroundSize={isMobile ? "73px" : "200px"}
-      backgroundPosition="left">
+      <Box
+        mb={5}
+        backgroundImage={"./images/flor1.png"}
+        backgroundRepeat="no-repeat"
+        backgroundSize={isMobile ? "73px" : "200px"}
+        backgroundPosition="left"
+      >
         <Center>
-          <Card w={"350px"}>
+          <Card w={"350px"} backgroundColor="none">
             <CardHeader>
               <Heading size="md"> Garena Jatetxea</Heading>
             </CardHeader>
             <CardBody>
-              <StaticImage
-                src="images/garena.jpeg"
-                alt="restaurante"
-                placeholder="blurred"
-                layout="fixed"
-                width={200}
-                height={200}
-              />
+              <Box
+                w={"100%"}
+                minH={"200px"}
+                backgroundImage="images/garena.jpeg"
+                backgroundSize="contain"
+                backgroundRepeat="no-repeat"
+              ></Box>
             </CardBody>
-            <CardFooter>
-              <Link href="https://www.google.com/maps?ll=43.129261,-2.76587&z=16&t=m&hl=es&gl=ES&mapclient=embed&cid=5084260644102107798">
-                <Button>Ver en maps</Button>
-              </Link>
+            <CardFooter justifyContent={"space-between"}>
+              <Box float={"left"}>
+                <Link
+                  href="https://www.google.com/maps?ll=43.129261,-2.76587&z=16&t=m&hl=es&gl=ES&mapclient=embed&cid=5084260644102107798"
+                  target="_blank"
+                >
+                  <Button>Ver en maps</Button>
+                </Link>
+              </Box>
+              <Box float={"right"}>
+                <Link
+                textDecoration={"none"}                
+                  href="https://garena.restaurant/es/"
+                  target="_blank"
+                >
+                  <Button>Web</Button>
+                </Link>
+              </Box>
             </CardFooter>
           </Card>
         </Center>
       </Box>
 
-      <Box mt={"80px"}       backgroundImage={"./images/flor2.png"}
-      backgroundRepeat="no-repeat"
-      backgroundSize={isMobile? "126px":"300px"}
-      backgroundPosition="right">
+      <Box
+        mt={"80px"}
+        backgroundImage={"./images/flor2.png"}
+        backgroundRepeat="no-repeat"
+        backgroundSize={isMobile ? "126px" : "300px"}
+        backgroundPosition="right"
+      >
         <Center>
           <Heading as="h2" fontSize={55} fontFamily={"gistesy"}>
             Autobuses
           </Heading>
         </Center>
-        <Center mt="150px">
+        <Center mt="50px">
           <Flex flexDir={isMobile ? "column" : "row"} gap="30px">
             <Box>
               <Card w={"300px"}>
