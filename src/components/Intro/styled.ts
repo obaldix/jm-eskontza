@@ -17,22 +17,41 @@ export const LayerOverPhoto = styled(Box)`
 `
 
 export const CenterText = styled(Center)``
+
+export const IntroGeneral = styled(Box)`
+  background-image: url(../../images/portada1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+`
+export const IntroGeneralMobile = styled(Box)`
+  background-image: url(../../images/portada1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:400px;
+  position: relative;
+
+`
+
 export const IntroBox = styled(Box)`
   border: 1px solid #fff;
   justify-content: center;
-  position: relative;
   width: 600px;
   margin: auto;
   background-color: rgba(0, 0, 0, 0.4);
 `
 
 export const IntroBoxMobile = styled(Box)`
-
   justify-content: center;
   position: relative;
   width: 100%;
   margin: auto;
-
 `
 
 export const IntroText = styled(Text)`
@@ -72,6 +91,6 @@ export const SlideSpan = styled.span`
 
 export const SlideEach = styled.div``
 
-export const FadeStyled= styled(Fade)`
+export const FadeStyled = styled(Fade)`
 width:100vh
 top:300px`
