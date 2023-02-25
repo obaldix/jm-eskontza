@@ -27,9 +27,10 @@ const Place = () => {
           as="h2"
           fontSize={55}
           textAlign="center"
-          fontFamily={"gistesy"}
+          fontFamily={"'Dancing Script', cursive"}
+          fontWeight="600"
         >
-          ¿Donde lo celebramos?
+          ¿Dónde lo celebramos?
         </Heading>
       </Center>
       <Center my={10} mt="100px" textAlign="center">
@@ -82,7 +83,8 @@ const Place = () => {
         backgroundPosition="right"
       >
         <Center>
-          <Heading as="h2" fontSize={55} fontFamily={"gistesy"}>
+          <Heading as="h2" fontSize={55}            fontFamily={"'Dancing Script', cursive"}
+            fontWeight="600">
             Autobuses
           </Heading>
         </Center>

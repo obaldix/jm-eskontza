@@ -26,5 +26,11 @@ export const onRenderBody = ({ setHeadComponents }) => {
       crossOrigin="anonymous"
       key="migra"
     />,
+    <link
+    as="font"
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+      key="dancing"
+    />,
   ])
 }

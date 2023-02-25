@@ -18,7 +18,8 @@ const Hotels = () => {
           as="h2"
           fontSize={55}
           textAlign="center"
-          fontFamily={"gistesy"}
+          fontFamily={"'Dancing Script', cursive"}
+          fontWeight="600"
         >
           Hoteles
         </Heading>

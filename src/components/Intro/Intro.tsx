@@ -15,6 +15,7 @@ import {
 } from "react-device-detect"
 import "react-slideshow-image/dist/styles.css"
 
+
 const Intro = () => {
   return (
     <>

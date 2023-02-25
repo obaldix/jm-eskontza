@@ -19,7 +19,8 @@ const Form = () => {
             as="h2"
             fontSize={55}
             textAlign="center"
-            fontFamily={"gistesy"}
+            fontFamily={"'Dancing Script', cursive"}
+            fontWeight="600"
           >
             ¿Te Apuntas?
           </Heading>

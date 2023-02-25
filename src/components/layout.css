@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 :root {
   --border-radius: 4px;
   --color-text: #333;
@@ -223,14 +225,6 @@ pre tt:after {
   content: none;
 }
 
-@font-face {
-  font-family: 'gistesy';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-  font-named-instance: 'Regular';
-  src: url(/fonts/Gistesy.ttf) format("truetype");
-}
 @font-face {
   font-family: 'migra';
   font-weight: 100 900;
