@@ -25,7 +25,7 @@ const Form = () => {
             ¿Te Apuntas?
           </Heading>
         </Center>
-        <Center mt="50px">
+        <Center mt="50px" textAlign={"center"}>
           <Text>
             Para confirmación de asistencia, autobuses y demás, haz click aquí
           </Text>

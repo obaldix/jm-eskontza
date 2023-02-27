@@ -33,7 +33,7 @@ const Place = () => {
           ¿Dónde lo celebramos?
         </Heading>
       </Center>
-      <Center my={10} mt="100px" textAlign="center">
+      <Center my={10} mt="100px" textAlign="center" paddingX={5}>
         <Text>La celebración comenzará a las 13:00 en el Garena Jatetxea.</Text>
       </Center>
 

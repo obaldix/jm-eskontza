@@ -53,7 +53,7 @@ const CuentaAtras: React.FC = () => {
             <>
               <Center>
                 <CuentaAtrasDiv>
-                  <Text fontSize={"30px"} mr="10px">
+                  <Text fontSize={"30px"} >
                     {props.days}{" "}
                   </Text>
                   <Text fontSize={"20px"}> días</Text>
@@ -61,7 +61,7 @@ const CuentaAtras: React.FC = () => {
               </Center>
               <Center>
               <CuentaAtrasDiv mt="5">
-                <Text fontSize={"30px"} mr="10px">
+                <Text fontSize={"30px"} >
                   {props.hours}
                 </Text>
                 <Text fontSize={"20px"}> horas</Text>
@@ -69,7 +69,7 @@ const CuentaAtras: React.FC = () => {
               </Center>
               <Center>
               <CuentaAtrasDiv mt="5">
-                <Text fontSize={"30px"} mr="10px">
+                <Text fontSize={"30px"}>
                   {props.minutes}
                 </Text>
                 <Text fontSize={"20px"}> minutos </Text>
@@ -77,7 +77,7 @@ const CuentaAtras: React.FC = () => {
               </Center>
               <Center>
               <CuentaAtrasDiv mt="5">
-                <Text fontSize={"30px"} mr="10px">
+                <Text fontSize={"30px"}>
                   {props.seconds}
                 </Text>
                 <Text fontSize={"20px"}> segundos</Text>
