@@ -16,7 +16,7 @@ const Regalo = () => {
       <Center>
         {/* <Heading as="h2" fontSize={55} fontFamily={"gistesy"}>Regalo</Heading> */}
       </Center>
-      <Center>
+      {/* <Center>
         <Text textAlign={"center"}>
           Tres cosas hay en la vida; salud, dinero y amor. Afortunadamente nos
           sobra salud y amor.
@@ -26,7 +26,7 @@ const Regalo = () => {
         <Text fontWeight={600} fontSize={20}>
           IBAN ES30 2095 0022 00 9119734674{" "}
         </Text>
-      </Center>
+      </Center> */}
       <Center mt="30px">
         <Image src="./images/origenes.png" alt="cuadro" />
       </Center>
