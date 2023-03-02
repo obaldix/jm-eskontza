@@ -25,7 +25,7 @@ const Hotels = () => {
         </Heading>
       </Center>
       <Center textAlign={"center"}>
-        <Text my="30px" paddingX={"10px"}>¿Estáis mirando algun hotel? Te recomendamos estos</Text>
+        <Text my="30px" paddingX={"10px"}>¿Estáis mirando algun hotel? Te recomendamos éstos</Text>
       </Center>
       <Center>
         <UnorderedList>
