@@ -23,7 +23,7 @@ const Intro = () => {
         <>
           <IntroBoxMobile top={"50px"}>
             <CenterText>
-              <IntroTextMobile>Julen eta Maitane</IntroTextMobile>
+              <IntroTextMobile>Bea eta Unai</IntroTextMobile>
             </CenterText>
             <CenterText>
               <IntroText2Mobile>¡Nos casamos! - 27/05/2023 </IntroText2Mobile>
