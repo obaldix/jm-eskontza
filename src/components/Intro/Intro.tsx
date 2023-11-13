@@ -35,7 +35,7 @@ const Intro = () => {
         <IntroGeneral>
           <IntroBox>
             <CenterText>
-              <IntroText>Julen eta Maitane</IntroText>
+              <IntroText>Bea eta Unai</IntroText>
             </CenterText>
             <CenterText>
               <IntroText2>¡Nos casamos! - 27/05/2023 </IntroText2>

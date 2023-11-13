@@ -12,7 +12,7 @@ const LoaderPage = () => {
           <span className="leaf4"></span>
         </div>
         <span className="loading" data-name="Loading">
-          Maitane eta Julen
+          Bea eta Unai
         </span>
       </div>)
 
