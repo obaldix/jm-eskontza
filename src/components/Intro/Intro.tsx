@@ -26,7 +26,7 @@ const Intro = () => {
               <IntroTextMobile>Bea eta Unai</IntroTextMobile>
             </CenterText>
             <CenterText>
-              <IntroText2Mobile>¡Nos casamos! - 27/05/2023 </IntroText2Mobile>
+              <IntroText2Mobile>¡Nos casamos! -  27/07/2024 </IntroText2Mobile>
             </CenterText>
           </IntroBoxMobile>
           <IntroGeneralMobile top={"100px"}/>
@@ -38,7 +38,7 @@ const Intro = () => {
               <IntroText>Bea eta Unai</IntroText>
             </CenterText>
             <CenterText>
-              <IntroText2>¡Nos casamos! - 27/05/2023 </IntroText2>
+              <IntroText2>¡Nos casamos! - 27/07/2024 </IntroText2>
             </CenterText>
           </IntroBox>
         </IntroGeneral>

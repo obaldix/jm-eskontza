@@ -11,7 +11,7 @@ const CuentaAtras: React.FC = () => {
 <Area>
       <BrowserView>
         <Countdown
-          date={new Date("2023-05-27")}
+          date={new Date("2024-07-27")}
           renderer={props => (
             // <Text fontSize={"60px"}>
             //   {props.days} días {props.hours} horas {props.minutes} minutos{" "}
@@ -48,7 +48,7 @@ const CuentaAtras: React.FC = () => {
       </BrowserView>
       <MobileView>
         <Countdown
-          date={new Date("2023-05-27")}
+          date={new Date("2024-07-27")}
           renderer={props => (
             <>
               <Center>

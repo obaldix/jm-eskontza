@@ -28,7 +28,7 @@ const Regalo = () => {
         </Text>
       </Center> */}
       <Center mt="30px">
-        <Image src="./images/origenes.png" alt="cuadro" />
+        <Image src="./images/footer.jpg" alt="cuadro" height={600}/>
       </Center>
     </Box>
   )

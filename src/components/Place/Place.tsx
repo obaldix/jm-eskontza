@@ -34,7 +34,7 @@ const Place = () => {
         </Heading>
       </Center>
       <Center my={10} mt="100px" textAlign="center" paddingX={5}>
-        <Text>La celebración comenzará a las 13:00 en el Garena Jatetxea.</Text>
+        <Text>La celebración comenzará a las 13:30 en el Hotel & Spa Etxegana</Text>
       </Center>
 
       <Box
@@ -47,15 +47,15 @@ const Place = () => {
         <Center>
           <Card maxW={"700px"} w="100%" backgroundColor="none">
             <CardHeader>
-              <Heading size="md"> Garena Jatetxea</Heading>
+              <Heading size="md"> Hotel & Spa Etxegana</Heading>
             </CardHeader>
             <CardBody>
-              <Image src="images/garena.jpeg" alt="garena" />
+              <Image src="images/etxegana1.webp" alt="garena" />
             </CardBody>
             <CardFooter justifyContent={"space-between"}>
               <Box float={"left"}>
                 <Link
-                  href="https://www.google.com/maps?ll=43.129261,-2.76587&z=16&t=m&hl=es&gl=ES&mapclient=embed&cid=5084260644102107798"
+                  href="https://maps.app.goo.gl/VXC2mgP1rG3HbWPZ7"
                   target="_blank"
                 >
                   <Button>Ver en maps</Button>
@@ -64,7 +64,7 @@ const Place = () => {
               <Box float={"right"}>
                 <Link
                   textDecoration={"none"}
-                  href="https://garena.restaurant/es/"
+                  href="https://etxegana.com/"
                   target="_blank"
                 >
                   <Button>Web</Button>
@@ -93,13 +93,13 @@ const Place = () => {
             <Box>
               <Card w={"300px"}>
                 <CardHeader>
-                  <Heading size="xs"> Bidezabal</Heading>
+                  <Heading size="xs"> Portugalete</Heading>
                 </CardHeader>
                 <CardBody>
-                  <Text>Ida: 12:00</Text>
-                  <Text>Vuelta: 22:00 y 01:00</Text>
+                  <Text>Pendiente de confirmación</Text>
+                  {/* <Text>Vuelta: 22:00 y 01:00</Text> */}
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2900.965119758436!2d-3.0120962!3d43.3568402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb9de087bd17c31d5!2sBidezabal%20(Metro)%20(94)!5e0!3m2!1ses!2ses!4v1675022621968!5m2!1ses!2ses"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.7289803259073!2d-3.023175922707004!3d43.319932573919985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e59a893dbe37d%3A0xae60d5acc829501a!2sCentro%20de%20Atenci%C3%B3n%20e%20Informaci%C3%B3n%20de%20la%20Seguridad%20Social%20n%C2%BA%2013!5e0!3m2!1ses!2ses!4v1703373700972!5m2!1ses!2ses"
                     width="100%"
                     height="300"
                   ></iframe>
@@ -114,11 +114,11 @@ const Place = () => {
             <Box>
               <Card w={"300px"}>
                 <CardHeader>
-                  <Heading size="xs"> Moyua</Heading>
+                  <Heading size="xs"> Bilbao</Heading>
                 </CardHeader>
                 <CardBody>
-                  <Text>Ida: 12:00</Text>
-                  <Text>Vuelta: 22:00 y 01:00</Text>
+                  <Text>Pendiente de confirmación</Text>
+                  {/* <Text>Vuelta: 22:00 y 01:00</Text> */}
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181.59109706969141!2d-2.9353697058878163!3d43.262789253719426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e4fd786a87ff7%3A0x4191d44c756e26f4!2sMoyua%20Plaza%20(Ogasuna%2Fhacienda)%20(896)!5e0!3m2!1ses!2ses!4v1675022676338!5m2!1ses!2ses"
                     width="100%"

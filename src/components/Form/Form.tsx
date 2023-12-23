@@ -27,12 +27,12 @@ const Form = () => {
         </Center>
         <Center mt="50px" textAlign={"center"}>
           <Text>
-            Para confirmación de asistencia, autobuses y demás, haz click aquí
+          Para confirmación de asistencia, alojaliento, autobuses y demás, haz click aquí:
           </Text>
         </Center>
         <Center mt="50px" textDecoration={"none"}>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSewteyUAeKwOh3e2zJC5Wo9hYynu9h3eMd_CQ4Fl4RrD8quag/viewform?vc=0&c=0&w=1&flr=0"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSctcrLgGqZbGPANQ3m3MqiqkJBO2hag_c-cw6o9iC2fzqOpow/viewform"
             target="_blank"
           >
             <Button colorScheme={"blue"} size="lg">
@@ -42,13 +42,12 @@ const Form = () => {
         </Center>
         <Center mt="60px">
         <Text textAlign={"center"}>
-          Tres cosas hay en la vida; salud, dinero y amor. Afortunadamente nos
-          sobra salud y amor.
+        Ya que vivir en Gran vía e irse de safari no es barato, ayudanos a quedarnos en Tanzania mas rato.
         </Text>
       </Center>
       <Center mt="30px">
         <Text fontWeight={600} fontSize={20}>
-          IBAN ES30 2095 0022 00 9119734674{" "}
+          IBAN ES31 0239 0806 7422 6538 5225{" "}
         </Text>
       </Center>
       </Box>
