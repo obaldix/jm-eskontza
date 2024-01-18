@@ -145,7 +145,7 @@ const Place = () => {
               </Box>
             </Flex>
           </Center>
-          <Center mt={8}>
+          <Center mt={8} px={2}>
             <Text>Los autobuses de vuelta serán a las 00:00 con el fin de fiesta desde el hotel a las mismas paradas de Portugalete y Bilbao.</Text>
           </Center>
         </Box>
