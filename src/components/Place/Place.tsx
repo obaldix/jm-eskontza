@@ -103,8 +103,10 @@ const Place = () => {
                     <Heading size="xs"> Portugalete</Heading>
                   </CardHeader>
                   <CardBody>
+                    <Box mb={3}>
                     <Text>Ida: 12:30</Text>
                     <Text>Vuelta: 00:00</Text>
+                    </Box>
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2902.8202528085794!2d-3.0250178238408507!3d43.318022071120104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDE5JzA0LjkiTiAzwrAwMScyMC44Ilc!5e0!3m2!1ses!2ses!4v1705609791455!5m2!1ses!2ses"
                       width="100%"
@@ -124,8 +126,10 @@ const Place = () => {
                     <Heading size="xs"> Bilbao</Heading>
                   </CardHeader>
                   <CardBody>
+                  <Box mb={3}>
                     <Text>Ida: 12:30</Text>
                     <Text>Vuelta: 00:00</Text>
+                    </Box>
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2905.4542593017063!2d-2.9382513238437467!3d43.262858271123356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDE1JzQ2LjMiTiAywrA1NicwOC40Ilc!5e0!3m2!1ses!2ses!4v1705610028028!5m2!1ses!2ses"
                       width="100%"
