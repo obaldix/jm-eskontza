@@ -35,7 +35,7 @@ const Place = () => {
         </Center>
         <Center my={10} mt="100px" textAlign="center" paddingX={5}>
           <Text>
-            La celebración comenzará a las 13:30 en el Hotel & Spa Etxegana
+            La celebración comenzará a las 13:00 en el Hotel & Spa Etxegana
           </Text>
         </Center>
 
@@ -104,7 +104,7 @@ const Place = () => {
                   </CardHeader>
                   <CardBody>
                     <Box mb={3}>
-                    <Text>Ida: 12:30</Text>
+                    <Text>Ida: 11:30</Text>
                     <Text>Vuelta: 00:00</Text>
                     </Box>
                     <iframe
@@ -127,7 +127,7 @@ const Place = () => {
                   </CardHeader>
                   <CardBody>
                   <Box mb={3}>
-                    <Text>Ida: 12:30</Text>
+                    <Text>Ida: 11:45</Text>
                     <Text>Vuelta: 00:00</Text>
                     </Box>
                     <iframe
